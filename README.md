@@ -35,7 +35,7 @@ Coube ao back-end preocupar-se com a entrega de um acesso rápido à pagina, sen
 
   Todo o desenvolvimento do projeto foi realizado unicamente por um aluno só, sozinho, *eu mesmo*, **Leonardo Clemente**, responsável pela implementação do algoritmo em JavaScript, o desenvolvimento front-end e o desenvolvimento back-end. 
 
-  **~~Gostaria de receber nota máxima por este desafio, obrigado.~~**:smirk:
+  ###### **~~Gostaria de receber nota máxima por este desafio, obrigado.~~**:smirk:
   
   
   :raised_hands: :raised_hands: :raised_hands:
