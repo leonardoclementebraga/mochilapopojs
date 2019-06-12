@@ -1,0 +1,127 @@
+body {
+  margin: 0px 200px 20px 200px;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+}
+
+span {
+  font-size: 20px;
+}
+
+#inputPesoMaximo {
+  height: 40px;
+  text-align: center;
+  width: 135px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#inputTotalItens {
+  height: 40px;
+  text-align: center;
+  width: 135px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-left: 26px;
+}
+
+button#setup-ok {
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+button#itens-ok {
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+button#itens-resultado {
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+button#refazer {
+  font-size: 15px;
+}
+
+.titulo {
+  background: #F7E018;
+  height: 110px;
+  right: 0;
+}
+
+.titulo h1 {
+  font-size: 75px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.refazer {
+  position: fixed;
+  bottom: 0px;
+  left: 10px;
+}
+
+.itensDesc {
+  margin-bottom: 15px;
+}
+
+.texto-porcentagem-ocupada {
+  margin: 0;
+  font-size: 35px;
+  border: solid 1px black;
+  width: 500px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: -5px 8px 2px 0px;
+}
+
+.texto-total-carregado {
+  margin: 0;
+  font-size: 35px;
+  border: solid 1px black;
+  width: 500px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: -5px 8px 2px 0px;
+}
+
+.inputItemNome {
+  background: pink;
+  box-shadow: 1px 2px 3px 0px;
+  padding: 5px 0px;
+  margin-right: 10px;
+  width: 200px;
+  text-align: center;
+  font-size: 24px;
+  border: none;
+  border-radius: 20px;
+}
+
+.inputItemPeso {
+  background: turquoise;
+  box-shadow: 1px 2px 3px 0px;
+  padding: 5px 0px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  font-size: 24px;
+  border: none;
+  border-radius: 20px;
+}
+
+.inputItemValor {
+  background: skyblue;
+  box-shadow: 1px 2px 3px 0px;
+  padding: 5px 0px;
+  margin: 10px;
+  width: 155px;
+  text-align: center;
+  font-size: 24px;
+  border: none;
+  border-radius: 20px;
+}

@@ -1,0 +1,64 @@
+<html>
+
+<head>
+  <title>MochilaPOPO.js</title>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="js/item.min.js"></script>
+  <script language="javascript" type="text/javascript" src="js/mochila.min.js"></script>
+  <script language="javascript" type="text/javascript" src="js/scriptmochila.min.js"></script>
+  <script language="javascript" type="text/javascript" src="js/script.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <style> body{paddin:0; margin:0} </style>
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="titulo uk-animation-scale-up">
+    <h1>MochilaPOPO.js</h1>
+  </div>
+  <div class="setup uk-animation-slide-right">
+    <h2>Setup</h2>
+    <form class="" action="#">
+      <span>Capacidade da Mochila:</span>
+      <input type="number" id="inputPesoMaximo" min="1" value="1">
+      <br>
+
+      <span>Quantidade de Itens:</span>
+      <input type="number" id="inputTotalItens" min="1" value="1">
+      <br>
+
+      <button type="button" id="setup-ok" class="uk-button uk-button-primary">Setup OK!</button>
+    </form>
+
+  </div>
+
+  <div class="itens uk-animation-slide-left">
+    <h2>Descrição dos Itens</h2>
+    <form class="" action="#">
+      <div class="itensDesc">
+        <!--input type='text' placeholder='Nome do Item' class='inputItemNome'>
+          <input type='text' placeholder='Peso do Item' class='inputItemPeso'>
+          <input type='text' placeholder='Valor do Item' class='inputItemValor'-->
+      </div>
+      <button type="button" id="itens-ok" disabled="true" class="uk-button uk-button-primary">Itens OK!</button>
+    </form>
+  </div>
+
+  <div class="resultado uk-animation-slide-right">
+    <h2>Resultado</h2>
+    <!--button type="button" id="itens-resultado" disabled="true" class="uk-button uk-button-primary">Descobrir os Escolhidos!</button-->
+    <table class="tabelaResultado">
+
+    </table>
+    <br>
+  </div>
+
+  <div class="refazer uk-animation-shake">
+    <button type="button" id="refazer" onClick="window.location.reload();" class="uk-button uk-button-danger uk-button-large uk-animation-reverse">Recomeçar!</button>
+  </div>
+</body>
+
+</html>
